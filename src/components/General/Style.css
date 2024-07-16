@@ -1,0 +1,51 @@
+.content {
+    display: flex;
+    background: linear-gradient(to right, #608fd1, #feb47b);
+    padding: 20px 0;
+}
+
+.content .info, .image {
+    width: 50%;
+    margin: auto;
+}
+
+.content .image {
+    width: auto;
+}
+
+.content .info h2 {
+    margin-left: 10px;
+    font-size: 30px;
+    width: 40%;
+    /* background-color: rgb(175, 7, 7); */
+    border-bottom: dashed 3px rgb(255, 255, 255);
+}
+
+.content .info p {
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.content .info .btn {
+    margin-left: 200px;
+    background-color: red;
+    border: #edd608 solid 1px ;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: #edd608;
+}
+.content .info .btn:hover {
+    scale: 1.1;
+    transition: .3s;
+    background-color: #F5DEB3;
+    border: #fa0000 solid 1px ;
+    color: #fa0000;
+    cursor: pointer;
+
+}

@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.About {
+    background: linear-gradient(to right, #608fd1, #feb47b);
+    /* background: #608fd1; */
+    /* background-color: #c9bdbd; */
+    /* height: 2000px; */
+}
+
+.About .container3 {
+    width: 90%;
+    margin: auto;
+}
+
+.container3 .ceo {
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.About .container3 .ceo .img {
+    background-color: rgb(71, 69, 69);
+    position: relative;
+    top: 6px;
+    width: 50%; 
+}
+
+.About .container3 .ceo .data {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.About .container3 .ceo .data p {
+    position: relative;
+    top: 10px;
+    left: 2px;
+    text-align: center;
+    width: auto;
+    line-height: 1.5;
+}
+
+.container3 .staff .details {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.container3 .staff .details span {
+    color: #F65200;
+    font-size: 60px;
+
+}   
+
+.container3 .staff .picture {
+    position: relative;
+    right: 40px;
+    width: 90%;
+    scale: .8;
+}
+
+.About .vision {
+    font-size: 20px;
+}
+
+.About .vision span
+{
+    font-size: 60px;
+    color: #F65200;
+}

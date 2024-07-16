@@ -1,0 +1,60 @@
+{
+    "images" : [        
+        {
+            "id":1,
+            "offer":"25% OFF 7$",
+            "title": "Dish 1",
+            "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas dsLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "image": "/images/food1.jpg"
+        },
+
+        {
+            "id":2,
+            "offer":"30% OFF 10$",
+            "title": "Dish 2",
+            "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas.",
+            "image": "/images/food2.jpg"
+        },
+
+        {
+            "id":3,
+            "offer":"40% OFF 12$",
+            "title": "Dish 3",
+            "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas.",
+            "image": "/images/food3.jpg"
+        }
+    ],
+
+    "branches" : [
+        {
+            "id": 1,
+            "name": "Brach 1",
+            "address":"20 uiegg st. sssddd. ffafa. eee",
+            "hours": "Working Hours: 11:00am to 11:00pm"
+        },
+        {
+            "id": 2,
+            "name": "Brach 2",
+            "address":"7 bvbvb st. xzcxzc. ffafa. rte",
+            "hours": "Working Hours: 11:00am to 11:00pm"
+        },
+        {
+            "id": 3,
+            "name": "Brach 3",
+            "address":"12 byyyrr st. dfggddd. yuyuyu. kilk",
+            "hours": "Working Hours: 11:00am to 11:00pm"
+        },
+        {
+            "id": 4,
+            "name": "Brach 4",
+            "address":"54 qewqweqe st. sgfgfddd. ffqwea. eee",
+            "hours": "Working Hours: 11:00am to 11:00pm"
+        },
+        {
+            "id": 5,
+            "name": "Brach 5",
+            "address":"33 llililil st. bbbhhb. fetttfa. eee",
+            "hours": "Working Hours: 11:00am to 11:00pm"
+        }
+    ]
+}

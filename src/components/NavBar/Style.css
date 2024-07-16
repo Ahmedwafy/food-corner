@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*  --- Start NavBar ---  */
+.NavBar {
+    top: 0;
+    width: 100%;
+    background-color: #DEF9C4;
+}
+.NavBar:hover{ 
+    /* scale: 1.2;  */
+    /* color: rgb(246, 82, 0); */
+    transition: .5s;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+.NavBar .logo {
+    font-size: 30px;
+    padding-left: 10px;
+    color: #080808;
+}
+
+
+.logo-items .icon {
+    text-align: center;
+    overflow: hidden;
+}
+
+.logo-items .list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-weight: bold;
+}
+
+.logo-items .list a {
+    text-decoration: none;
+    color: #080808;
+}
+
+.logo-items .list .active , a:hover {
+    color: #F65200;
+}
+
+/*  --- End NavBar ---  */

@@ -1,0 +1,73 @@
+
+.Branches {
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    height: 100vh;
+}
+
+.Branches .container4 {
+    width: 90%;
+    margin: auto;
+}
+
+.Branches .container4 .search h2 {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+}
+
+.Branches .container4 .search input {
+    padding-left: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.Branches .container4 .search .btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Branches .container4 .search .btn:hover {
+    background-color: #FFA975;
+    cursor: pointer;
+}
+
+.branch {
+    margin: 20px 0px;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 100px;
+    line-height: 1.6;
+    width: 40%;
+    background-color: rgba(0, 0, 255, 0.048);
+}
+
+.branch button {
+    position: relative;
+    bottom: 20px;
+    left: 320px;
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: none;
+}
+
+.branch button:hover {
+    background-color: #fe6741;
+    cursor: pointer;
+    scale: 1.1;
+    transition: .4s;
+    border-radius: 8px;
+}
+
+.Branches .container4 .image {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    border: solid 1px black;
+    width: 500px;
+}
