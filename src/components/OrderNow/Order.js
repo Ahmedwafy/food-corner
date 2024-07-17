@@ -5,21 +5,27 @@ import "./Order.css"
 // onClose prop is a function make ...  setShowOrder(false)
 const Order = ({onClose}) => {
     return (
-        <div className="order-container">
-            <div>
-                <h2>Thanks For Your Trust</h2>   
-                <p>Delivery in 40 minutes</p>
-                <p>Please Fill Your Data</p>
-                <p>Name*</p>
-                <input type="text" placeholder="name"/>
-                <p>Phone Number*</p>
-                <input type="text" placeholder="Phone Number"/>
-                <p>Address*</p>
-                <input type="text" placeholder="Address"/>
-                <button>Order</button>
-                <button className="close-btn" onClick={onClose}>
-                 Close
-                </button>
+       <div className="order">
+            <div className="container">
+                <div>
+                    <h2>Thanks For Your Trust</h2>   
+                    <p>Delivery in 40 minutes</p>               
+                    <p>Please Fill Your Data</p>
+                    <p className="ppp">Name*</p>
+                    <input type="text" placeholder="name"/>
+                    <hr/>
+                    <p className="ppp">Phone Number*</p>
+                    <input type="text" placeholder="Phone Number"/>
+                    <hr/>
+                    <p className="ppp">Address*</p>
+                    <input type="text" placeholder="Address"/>
+                    <hr/>
+                    <br/>
+                    <button>Order</button>
+                    <button className="close-btn" onClick={onClose}>
+                    Close
+                    </button>
+                </div>
             </div>
         </div>
     )
