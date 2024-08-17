@@ -20,7 +20,7 @@ const NavBar = () => {
                     <ul className="list">
 
                         <li>     
-                            <NavLink to="/">
+                            <NavLink exact to="/">
                                 <div className="icon">
                                     <i><FontAwesomeIcon icon={faHouse} /></i>
                                 </div>
@@ -38,6 +38,7 @@ const NavBar = () => {
                                 <p>About</p>
                             </NavLink>
                         </li>
+
                         <li>
                             <NavLink to="/Branches">
                                 <div className="icon">
@@ -47,6 +48,7 @@ const NavBar = () => {
                                 <p>Branches</p>
                             </NavLink>
                         </li>
+
                         <li>
                             <NavLink to="/Contact">
                             <div className="icon">
@@ -56,6 +58,7 @@ const NavBar = () => {
                                 <p>Contact</p>
                             </NavLink>
                         </li>
+                        
                     </ul>
                 </div>  
             </div>

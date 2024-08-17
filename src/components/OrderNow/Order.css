@@ -1,8 +1,8 @@
 
 .order .container {
-    position: absolute;
+    position: fixed;
     left: 25%;
-    top: 70%;
+    top: 25%;
     width: 50%;
     height: 60%;
     background: #b8b8b8;
