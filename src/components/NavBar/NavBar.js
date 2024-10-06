@@ -2,8 +2,6 @@ import "./Style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBowlFood, faContactBook, faDiagramProject, faEnvelope , faHouse} from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from "react-router-dom"; 
-// NavLink = preventdefault
-// بيمنع ريلود الصفحة
 
 const NavBar = () => {
     return (
